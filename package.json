@@ -1,0 +1,23 @@
+{
+  "name": "discord-music-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/"
+  },
+  "author": "rachit-pandey",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/opus": "github:discordjs/opus",
+    "discord-player": "^3.2.0",
+    "discord-ytdl-core": "^5.0.0",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "merge-options": "^3.0.4",
+    "node-fetch": "^2.6.1",
+    "spotify-url-info": "^2.2.0",
+    "ytpl": "^2.0.4",
+    "ytsr": "^3.2.1"
+  }
+}
