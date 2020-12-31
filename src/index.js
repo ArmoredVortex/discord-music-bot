@@ -41,3 +41,9 @@ client.player.on('trackStart', (message, track) => {
 })
 
 client.login(token);
+
+// Self Ping
+const fetch = require('node-fetch');
+setInterval(async () =>{
+    await fetch(process.env.PING_URL)
+},240000)
